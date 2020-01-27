@@ -5,7 +5,7 @@ Play Hare and Hounds against computer who's gonna use basic minimax algorithm or
 Just run in console and choose the algorithm computer is gonna use and your next move until game is finished.
 
 ### About the game
-![image-sab][https://upload.wikimedia.org/wikipedia/commons/8/85/Hare_and_Hounds_board.png]
+![image-sab](https://upload.wikimedia.org/wikipedia/commons/8/85/Hare_and_Hounds_board.png)
 1. There are two players, one representing the hounds and the other represents the hare. Each player takes turn to make a move. The player representing the hounds can only move one hound at one time.
 2. The three hounds try to corner the hare and the hare tries to escape to the left of all hounds.
 3. The hounds can move up and down, straight forward, or diagonally forward toward the right end of the game board.
