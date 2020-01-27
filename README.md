@@ -5,7 +5,7 @@ Play Hare and Hounds against computer who's gonna use basic minimax algorithm or
 Just run in console and choose the algorithm computer is gonna use and your next move until game is finished.
 
 ### About the game
-![alt text][https://upload.wikimedia.org/wikipedia/commons/8/85/Hare_and_Hounds_board.png]
+![image-sab][https://upload.wikimedia.org/wikipedia/commons/8/85/Hare_and_Hounds_board.png]
 1. There are two players, one representing the hounds and the other represents the hare. Each player takes turn to make a move. The player representing the hounds can only move one hound at one time.
 2. The three hounds try to corner the hare and the hare tries to escape to the left of all hounds.
 3. The hounds can move up and down, straight forward, or diagonally forward toward the right end of the game board.
@@ -14,7 +14,7 @@ Just run in console and choose the algorithm computer is gonna use and your next
 6. The hare wins if it "escapes" to the left of all three hounds.
 7. If the hounds move vertically ten times in a row, they are considered to be "stalling" and the hare wins.
 
-### Static evalutation function
+### Static evaluation function
 ```python
 def static_evaluation(self, depth):
   winner = self.is_game_over(state=None)
